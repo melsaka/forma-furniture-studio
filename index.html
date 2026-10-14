@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#233b30">
+  <meta name="description" content="Forma — a fictional furniture studio. Explore sculptural pieces, natural textures, and a softer way to live.">
+  <meta property="og:title" content="Forma — A softer way to live">
+  <meta property="og:description" content="Considered furniture. Everyday beauty. An original furniture studio concept.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://melsaka.github.io/forma-furniture-studio/assets/sofa.webp">
+  <meta property="og:url" content="https://melsaka.github.io/forma-furniture-studio/">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://melsaka.github.io/forma-furniture-studio/">
+  <title>Forma — A softer way to live</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preload" href="assets/sofa.webp" as="image">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <svg class="icon-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h15M13 5l7 7-7 7"/></symbol>
+    <symbol id="i-diagonal" viewBox="0 0 24 24"><path d="M6 18 18 6M6 6h12v12"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 4.5 4.5"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M20.3 4.8a5.4 5.4 0 0 0-7.6 0l-.7.7-.7-.7a5.4 5.4 0 0 0-7.6 7.6L12 21l8.3-8.6a5.4 5.4 0 0 0 0-7.6Z"/></symbol>
+    <symbol id="i-bag" viewBox="0 0 24 24"><path d="M5 7h14l1 14H4L5 7Z"/><path d="M8 8V6a4 4 0 0 1 8 0v2"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M6 18 18 6"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M5 12h14M12 5v14"/></symbol>
+    <symbol id="i-minus" viewBox="0 0 24 24"><path d="M5 12h14"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 16h16"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+    <symbol id="i-leaf" viewBox="0 0 24 24"><path d="M20 3c0 11-4 17-10 17a6 6 0 0 1-6-6C4 8 10 3 20 3Z"/><path d="m4 21 11-11"/></symbol>
+    <symbol id="i-box" viewBox="0 0 24 24"><path d="m3 7 9-5 9 5v10l-9 5-9-5V7ZM3 7l9 5 9-5M12 12v10M7.5 4.5l9 5"/></symbol>
+    <symbol id="i-spark" viewBox="0 0 24 24"><path d="m12 2 2.7 7.3L22 12l-7.3 2.7L12 22l-2.7-7.3L2 12l7.3-2.7L12 2Z"/></symbol>
+  </svg>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="announcement"><span>Objects for the art of everyday living.</span><span class="announcement-right">An original furniture studio concept <span aria-hidden="true">↗</span></span></div>
+  <header class="site-header">
+    <a class="wordmark" href="#" aria-label="Forma home">forma<span class="brand-star" aria-hidden="true">✳</span></a>
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="#shop">Shop furniture</a><a href="#collection">The collection</a><a href="#approach">Our approach</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-button" id="search-button" aria-label="Search furniture"><svg><use href="#i-search"/></svg></button>
+      <button class="icon-button wishlist-button" id="wishlist-button" aria-label="View saved pieces"><svg><use href="#i-heart"/></svg><span class="saved-dot" hidden></span></button>
+      <button class="bag-button" id="bag-button" aria-label="Open shopping bag"><svg><use href="#i-bag"/></svg><span class="bag-label">Bag</span><span id="bag-count">0</span></button>
+      <button class="icon-button mobile-menu-button" id="menu-button" aria-label="Open navigation" aria-expanded="false"><svg><use href="#i-menu"/></svg></button>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" hidden><a href="#shop">Shop furniture</a><a href="#collection">The collection</a><a href="#approach">Our approach</a><button id="mobile-wishlist">Saved pieces</button></nav>
+  </header>
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="small-dot"></span> Less, but better.</div>
+        <h1 id="hero-title">A <em>softer</em><br>way to live.</h1>
+        <p>Thoughtful forms. Honest materials.<br>Furniture that feels like you.</p>
+        <a class="button button-dark" href="#shop">Find your forever piece <svg><use href="#i-arrow"/></svg></a>
+        <div class="hero-footnote"><span class="hero-footnote-line"></span><span>Made for slow mornings<br>&amp; everything in between.</span></div>
+      </div>
+      <div class="hero-visual">
+        <img src="assets/sofa.webp" alt="Sculptural caramel velvet modular sofa on a light gray studio background" width="1024" height="1024" fetchpriority="high">
+        <div class="image-topline"><span>THE SOFT FORM COLLECTION</span><span>VOL. 01 / 2026</span></div>
+        <span class="hero-vertical">GOOD DESIGN. GREAT LIVING.</span>
+        <button class="hero-product" data-product="sofa"><span><span class="micro-label">MEET YOUR NEW FAVORITE</span><strong>The Sol Sofa</strong><span>Caramel velvet · $2,490</span></span><span class="round-arrow"><svg><use href="#i-diagonal"/></svg></span></button>
+        <div class="hero-stamp" aria-hidden="true"><span>FORM<br>MEETS<br>FEELING</span><svg><use href="#i-spark"/></svg></div>
+      </div>
+    </section>
+    <div class="values-strip"><span><svg><use href="#i-spark"/></svg> Considered in every detail</span><span><svg><use href="#i-leaf"/></svg> Naturally beautiful materials</span><span><svg><use href="#i-box"/></svg> Designed for everyday life</span><span class="strip-signature">A little less ordinary.</span></div>
+    <section class="shop-section section-wrap" id="shop" aria-labelledby="shop-title">
+      <div class="section-top"><div><span class="eyebrow">THE EVERYDAY EDIT</span><h2 id="shop-title">Good things live here.</h2></div><p>Distinctive pieces. Effortless company.<br>Find something you'll love coming home to.</p></div>
+      <div class="shop-toolbar">
+        <div class="category-tabs" role="group" aria-label="Filter furniture categories"><button class="category-tab active" data-category="all" aria-pressed="true">All pieces <span>06</span></button><button class="category-tab" data-category="Seating" aria-pressed="false">Seating</button><button class="category-tab" data-category="Tables" aria-pressed="false">Tables</button><button class="category-tab" data-category="Storage" aria-pressed="false">Storage</button><button class="category-tab" data-category="Lighting" aria-pressed="false">Lighting</button></div>
+        <label class="sort-label"><span class="sr-only">Sort products</span><select id="sort-select"><option value="featured">Featured</option><option value="price-low">Price: low to high</option><option value="price-high">Price: high to low</option><option value="name">Name: A to Z</option></select></label>
+      </div>
+      <div class="active-filter" id="active-filter" hidden><span id="filter-description"></span><button id="clear-filter">Clear filters <svg><use href="#i-close"/></svg></button></div>
+      <div class="product-grid" id="product-grid"></div>
+      <div class="shop-bottom"><span id="product-count" aria-live="polite">Six pieces. Endless possibilities.</span><a class="text-link" href="#collection">A closer look at the collection <svg><use href="#i-arrow"/></svg></a></div>
+    </section>
+    <section class="collection-section" id="collection" aria-labelledby="collection-title">
+      <div class="collection-image"><img src="assets/chair.webp" alt="Ivory bouclé lounge chair with a pale oak base on a light gray background" width="1024" height="1024" loading="lazy"><span class="collection-number">01—06</span><span class="collection-caption">THE LUNE CHAIR / A LITTLE EVERYDAY ESCAPE</span></div>
+      <div class="collection-copy"><span class="eyebrow">SOFT EDGES. STRONG CHARACTER.</span><h2 id="collection-title">Your space.<br>Your <em>own</em> pace.</h2><p>A chair to sink into. A table to gather around. The quiet joy of a home that feels entirely your own.</p><p>Our first collection brings sculptural silhouettes and tactile materials together in six thoughtfully imagined pieces.</p><button class="button button-light" data-product="chair">Meet the Lune Chair <svg><use href="#i-arrow"/></svg></button><div class="collection-signoff"><svg><use href="#i-spark"/></svg><span>Designed to feel good.<br>And look even better.</span></div></div>
+    </section>
+    <section class="approach-section section-wrap" id="approach" aria-labelledby="approach-title">
+      <div class="approach-intro"><span class="eyebrow">THE FORMA POINT OF VIEW</span><h2 id="approach-title">Nothing extra.<br>Everything <em>considered.</em></h2><p>We believe the best rooms leave space for living. Our imagined studio starts with simple forms, expressive textures, and the details you notice every day.</p></div>
+      <div class="approach-list"><article><span>01</span><div><h3>Form with feeling</h3><p>Soft curves and balanced proportions. Quiet statement pieces that make a room feel like home.</p></div><svg><use href="#i-spark"/></svg></article><article><span>02</span><div><h3>Material matters</h3><p>The grain of walnut. The warmth of travertine. The texture of bouclé. Beauty you can almost feel.</p></div><svg><use href="#i-leaf"/></svg></article><article><span>03</span><div><h3>Made for the everyday</h3><p>Furniture imagined around real rituals: the first coffee, the long conversation, the slow Sunday.</p></div><svg><use href="#i-check"/></svg></article></div>
+    </section>
+    <section class="closing-section"><span class="eyebrow">MAKE YOURSELF AT HOME</span><h2>A little space.<br>A lot of <em>possibility.</em></h2><a class="button button-dark" href="#shop">Explore all six pieces <svg><use href="#i-arrow"/></svg></a><span class="closing-spark" aria-hidden="true">✳</span></section>
+  </main>
+  <footer class="site-footer"><div class="footer-main"><div><a class="wordmark" href="#" aria-label="Forma home">forma<span class="brand-star" aria-hidden="true">✳</span></a><p>Considered furniture.<br>Everyday beauty.</p></div><div class="footer-links"><div><span class="micro-label">EXPLORE</span><a href="#shop">All furniture</a><a href="#collection">The collection</a><a href="#approach">Our approach</a></div><div><span class="micro-label">GOOD TO KNOW</span><button data-info="delivery">Delivery &amp; care</button><button data-info="materials">Materials guide</button><button data-info="about">About this concept</button></div></div><div class="footer-note"><span class="micro-label">A NOTE FROM THE STUDIO</span><p>Good design makes room<br>for the things that matter.</p><span>Take a seat. Stay a while. ↗</span></div></div><div class="footer-bottom"><span>© 2026 Forma. An original design concept.</span><span>Fictional products &amp; illustrative prices. Demo only; no purchases or payments.</span><button data-info="privacy">Privacy</button></div></footer>
+  <dialog class="search-dialog" id="search-dialog" aria-labelledby="search-title"><div class="dialog-top"><span class="eyebrow" id="search-title">FIND YOUR NEXT FAVORITE</span><button class="icon-button" data-close="search-dialog" aria-label="Close search"><svg><use href="#i-close"/></svg></button></div><form id="search-form"><label class="sr-only" for="search-input">Search by piece, material, or category</label><input id="search-input" type="search" placeholder="A sofa? A little walnut?" autocomplete="off"><button class="icon-button" type="submit" aria-label="Search"><svg><use href="#i-arrow"/></svg></button></form><div id="search-results" class="search-results" aria-live="polite"></div><p class="dialog-hint">Try “bouclé”, “chair”, or “travertine”.</p></dialog>
+  <dialog class="product-dialog" id="product-dialog" aria-labelledby="product-modal-title"><button class="icon-button floating-close" data-close="product-dialog" aria-label="Close product details"><svg><use href="#i-close"/></svg></button><div id="product-detail"></div></dialog>
+  <dialog class="bag-dialog" id="bag-dialog" aria-labelledby="bag-title"><div class="dialog-top"><div><span class="eyebrow">GOOD CHOICES</span><h2 id="bag-title">Your bag <span id="drawer-count">(0)</span></h2></div><button class="icon-button" data-close="bag-dialog" aria-label="Close shopping bag"><svg><use href="#i-close"/></svg></button></div><div class="bag-content" id="bag-content"></div><div class="bag-summary" id="bag-summary"></div></dialog>
+  <dialog class="info-dialog" id="info-dialog" aria-labelledby="info-title"><button class="icon-button floating-close" data-close="info-dialog" aria-label="Close dialog"><svg><use href="#i-close"/></svg></button><div id="info-content"></div></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
